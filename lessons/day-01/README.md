@@ -19,7 +19,7 @@ You should see:
 
 ```text
 Hello, Python!
-I'm starting 90 Days of Python.
+I'm Python learner, and I'm here to build useful things.
 ```
 
 ## What is happening?
@@ -35,8 +35,9 @@ I'm starting 90 Days of Python.
 ## Try it yourself
 
 1. Change the first message and run the file again.
-2. Change the `name` value.
-3. Add a variable for something you want to learn and print it in an f-string.
+2. Change the `name` and `goal` values.
+3. Add a variable for another thing you want to learn and print it in an
+   f-string.
 4. Make a deliberate typo, run the program, and read the error. Then fix it.
 
 Keep your version in your own work folder or a fork so you can look back at

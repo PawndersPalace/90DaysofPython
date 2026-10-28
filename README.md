@@ -16,11 +16,12 @@ internet connection to install Python and look up documentation.
 3. Get this course:
 
    ```sh
-   git clone https://github.com/<your-github-name>/90DaysofPython.git
+   git clone https://github.com/PawndersPalace/90DaysofPython.git
    cd 90DaysofPython
    ```
 
-   Or use GitHub's **Code → Download ZIP** button and unzip the download.
+   Or use GitHub's **Code → Download ZIP** button and unzip the download. To
+   publish your own changes, fork the repository first and clone your fork.
 4. Open the project folder in your editor. Run the first example:
 
    ```sh
@@ -29,8 +30,9 @@ internet connection to install Python and look up documentation.
 
    If `python` is not recognized on Windows, try `py` instead. On macOS or
    Linux, you may need `python3`.
-5. Follow the [90-day curriculum](CURRICULUM.md). Aim for 30–60 minutes a day;
-   taking a rest day or repeating a lesson is fine.
+5. Follow the [90-day curriculum](CURRICULUM.md). Every day links to its own
+   lesson with a runnable example and a practice task. Aim for 30–60 minutes a
+   day; taking a rest day or repeating a lesson is fine.
 
 ## How to use the course
 
@@ -48,15 +50,29 @@ internet connection to install Python and look up documentation.
 
 ## What's included
 
-- [CURRICULUM.md](CURRICULUM.md): daily topics and practice prompts for all 90
-  days, with weekly projects and a final capstone.
-- [lessons/day-01](lessons/day-01/README.md): a complete first lesson and
-  runnable example.
+- [CURRICULUM.md](CURRICULUM.md): all 90 linked lessons, daily practice
+  prompts, weekly projects, and a final capstone.
+- [lessons/](lessons): a lesson guide and runnable Python example for each day.
+- [lessons/day-01](lessons/day-01/README.md): start with your first program.
+- [lessons/day-90](lessons/day-90/README.md): finish by building and sharing a
+  personal reading tracker.
 - [CONTRIBUTING.md](CONTRIBUTING.md): how to suggest improvements and share
   lessons or projects.
 
 The roadmap is a guide, not a race. If a day takes longer than one day, that's
 normal. You can also skip ahead and come back later.
+
+## Following a lesson
+
+Open the day's `README.md`, read its short explanation, predict what the
+example will do, and run it from the repository root. Change a value, run the
+example again, then try the practice prompt in your own folder. Each example
+uses Python's standard library, runs offline, and avoids changing course files.
+
+Some topics mention optional third-party tools such as `requests`, `ruff`,
+`matplotlib`, Flask, and Streamlit. The core examples do not require installing
+them; use a virtual environment and the tool's official beginner guide when
+you want to explore further.
 
 ## Share your progress
 
